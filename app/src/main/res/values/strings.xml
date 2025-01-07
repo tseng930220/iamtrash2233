@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">orderingsystem</string>
+    <string name="choose_table_prompt">選擇桌號</string>
+</resources>

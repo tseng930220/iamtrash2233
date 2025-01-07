@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/tableNumberInput"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:hint="桌号"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/dishInput"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:hint="餐点名称" />
+
+    <Button
+        android:id="@+id/addDishButton"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:text="添加餐点" />
+
+    <Spinner
+        android:id="@+id/tableSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:prompt="@string/choose_table_prompt" />
+
+
+    <ListView
+        android:id="@+id/orderListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/deleteTableButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除桌号" />
+</LinearLayout>
